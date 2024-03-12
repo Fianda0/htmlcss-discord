@@ -29,14 +29,14 @@ a {
     display: flex;
 }
 
-.content-header h2 {
+h2 {
     font-size: 3rem;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 button {
     border: 0px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 1rem;
     border-radius: 25px;
     margin: 1rem;
@@ -103,6 +103,7 @@ header {
     color: white;
 }
 
+/******************Selettori Main */
 main {
     margin: auto;
     justify-content: center;
@@ -133,24 +134,42 @@ main {
 }
 
 .section-1 {
-    background-color: rgb(112, 255, 255);
     width: 60%;
     padding: 1rem;
 }
 
 .section-2 {
-    background-color: purple;
     width: 40%;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .section-3 {
-    background-color: green;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     padding: 1rem;
-
+    text-align: center;
 }
 
+.section-3 img {
+    width: 110%;
+}
+
+.section-3 h3 {
+    padding: 2rem;
+    font-size: 2rem;
+    background-image: url('./img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section-3 button {
+    background-color: #7289da;
+    color: white;
+}
+
+/* ************* selettori footer */
 footer {
     background-color: rgb(49, 49, 49);
     flex-direction: column;
