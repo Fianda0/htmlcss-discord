@@ -198,6 +198,10 @@ footer span {
     color: white;
 }
 
+.social {
+    padding: 1rem 0;
+}
+
 
 footer div>img {
     width: 5%;
