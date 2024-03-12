@@ -1,9 +1,21 @@
 /* Selettori generali */
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.allineamento-end {
+    justify-content: end;
 }
 
 
@@ -23,12 +35,13 @@ header {
 }
 
 .navbar {
+    font-weight: bold;
     background-color: gold;
     margin-left: auto;
     margin-bottom: 1rem;
     margin-right: auto;
     padding: 1rem;
-    width: 1300px;
+    width: 1600px;
     justify-content: space-between;
 }
 
@@ -37,7 +50,16 @@ header {
 }
 
 .navbar-big {
+    justify-content: space-around;
+    align-items: center;
     width: 60%;
+}
+
+.login {
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: white;
+    justify-content: end;
 }
 
 .container-header {
@@ -143,9 +165,8 @@ footer {
 .content-footer {
     display: flex;
     background-color: pink;
-    height: 4rem;
-    width: 10rem;
-    font-size: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
 }
