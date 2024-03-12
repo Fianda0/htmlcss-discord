@@ -168,7 +168,8 @@ main {
     background-repeat: no-repeat;
 }
 
-.section-3 button {
+.section-3 button,
+footer button {
     background-color: #7289da;
     color: white;
 }
@@ -177,6 +178,10 @@ main {
 footer {
     background-color: rgb(49, 49, 49);
     flex-direction: column;
+}
+
+footer span {
+    color: white;
 }
 
 
@@ -201,12 +206,10 @@ footer a {
 }
 
 .container-footer1 {
-
     padding-top: 1rem;
 }
 
 .container-footer2 {
-    border: 1px solid white;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 0;
@@ -224,18 +227,21 @@ footer a {
 }
 
 .footer-section3 {
-    background-color: aquamarine;
     width: 100%;
-    padding: 1rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .content-footer {
     display: flex;
-    background-color: pink;
     padding: 1rem;
     font-size: 1rem;
     justify-content: center;
     align-items: center;
+}
+
+hr {
+    border-color: #7289da;
+    max-width: 1300px;
+    margin: auto;
 }
