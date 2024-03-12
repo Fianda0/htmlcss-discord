@@ -46,6 +46,20 @@ button {
     margin: 1rem;
 }
 
+.onde {
+    min-height: 10rem;
+    width: 100%;
+    background-image: url('./img/wave.svg');
+    opacity: 0.1;
+}
+
+.onde-revers {
+    min-height: 10rem;
+    width: 100%;
+    background-image: url('./img/wave.svg');
+    opacity: 0.1;
+    transform: scale(-1);
+}
 
 /******************TAG HEADER */
 
@@ -119,7 +133,7 @@ main {
 }
 
 .container-2 {
-    background-color: lightgray;
+    background-color: #e5e5e5;
 }
 
 .container-3 {
@@ -128,7 +142,7 @@ main {
 }
 
 .container-4 {
-    background-color: lightgray;
+    background-color: #e5e5e5;
 
 }
 
