@@ -9,6 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h4 {
+    color: #7289da;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -175,7 +179,29 @@ footer {
     flex-direction: column;
 }
 
+
+footer div>img {
+    width: 5%;
+}
+
+footer h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #7289da;
+}
+
+footer a {
+    display: block;
+}
+
+footer h4,
+footer a {
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
 .container-footer1 {
+
     padding-top: 1rem;
 }
 
@@ -187,16 +213,12 @@ footer {
 }
 
 .footer-section1 {
-    background-color: crimson;
-    border: 1px solid black;
     width: calc((100% / 6) + 100% / 6);
     padding: 1rem;
 
 }
 
 .footer-section2 {
-    background-color: aqua;
-    border: 1px solid black;
     width: calc(100% / 6);
     padding: 1rem;
 }
