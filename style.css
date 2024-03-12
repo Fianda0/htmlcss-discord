@@ -1,0 +1,151 @@
+/* Selettori generali */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-form {
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.flex-display {
+    display: flex;
+}
+
+header {
+    background-color: aqua;
+    padding: 1rem 0;
+}
+
+.navbar {
+    background-color: gold;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    padding: 1rem;
+    width: 1300px;
+    justify-content: space-between;
+}
+
+.navbar-small {
+    width: 20%;
+}
+
+.navbar-big {
+    width: 60%;
+}
+
+.container-header {
+    background-color: blue;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    background-color: pink;
+    width: 50%;
+    padding: 1rem;
+}
+
+main {
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-1 {
+    background-color: white;
+}
+
+.container-2 {
+    background-color: lightgray;
+}
+
+.container-3 {
+    background-color: white;
+
+}
+
+.container-4 {
+    background-color: lightgray;
+
+}
+
+.container-content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.section-1 {
+    background-color: rgb(112, 255, 255);
+    width: 60%;
+    padding: 1rem;
+}
+
+.section-2 {
+    background-color: purple;
+    width: 40%;
+    padding: 1rem;
+}
+
+.section-3 {
+    background-color: green;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    flex-direction: column;
+}
+
+.container-footer1 {
+    padding-top: 1rem;
+}
+
+.container-footer2 {
+    border: 1px solid white;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.footer-section1 {
+    background-color: crimson;
+    border: 1px solid black;
+    width: calc((100% / 6) + 100% / 6);
+    padding: 1rem;
+
+}
+
+.footer-section2 {
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(100% / 6);
+    padding: 1rem;
+}
+
+.footer-section3 {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer {
+    display: flex;
+    background-color: pink;
+    height: 4rem;
+    width: 10rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
